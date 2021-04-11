@@ -1,2 +1,4 @@
 # js_mini_projects
-Some mini projects using JavaScript
+Mini Web Projects using JavaScript
+
+# code_daily

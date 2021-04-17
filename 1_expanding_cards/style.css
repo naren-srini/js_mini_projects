@@ -20,11 +20,11 @@ body {
 }
 
 .panel {
-    background-size: auto;
+    background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius: 70px;
+    border-radius: 50px;
     color: antiquewhite;
     flex: 0.5;
     cursor: pointer;

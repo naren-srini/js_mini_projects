@@ -5,10 +5,10 @@ panels.forEach(function(panel) {
         removeActiveClasses()
         panel.classList.add('active')
     })
-})
+});
 
 function removeActiveClasses() {
     panels.forEach(function(panel) {
-        panel.classList.removeActiveClasses('active')
+        panel.classList.remove('active')
     })
 }

@@ -34,6 +34,7 @@ body {
 }
 
 .panel h3 {
+    text-align: center;
     font-size: 22px;
     position: absolute;
     bottom: 20px;
@@ -47,6 +48,7 @@ body {
 }
 
 .panel.active h3 {
+    text-align: center;
     opacity: 1;
     transition: opacity 0.35s ease-in 0.35s;
 }

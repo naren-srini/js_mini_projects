@@ -25,6 +25,7 @@ prev.addEventListener('click', () => {
     update()
 })
 
+//Function to update to Circle state
 function update() {
     circles.forEach((circle, idx) => {
         if (idx < currentActive) {
@@ -33,8 +34,10 @@ function update() {
             circle.classList.remove('active')
         }
     })
-    const actives = document.querySelectorAll('active')
 
+    // Below line keeps the circles in active states when toggled
+    const actives = document.querySelectorAll('.active')
+        // Line progress fill action
     progress.style.width = (actives.length - 1) / (circles.length - 1) * 100 + '%'
 
     if (currentActive === 1) {

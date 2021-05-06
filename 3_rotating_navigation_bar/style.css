@@ -6,7 +6,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     background-color: grey;
-    color: #222;
+    color: rgb(22, 22, 22);
     overflow-x: hidden;
     margin: 0;
 }
@@ -37,6 +37,10 @@ body {
     border-radius: 50%;
     position: absolute;
     transition: transform 0.6s linear;
+}
+
+.container.show-nav .circle {
+    transform: rotate(-70deg);
 }
 
 .circle button {

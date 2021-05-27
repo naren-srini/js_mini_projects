@@ -1,5 +1,8 @@
 //* Simple stopwatch functionality using JavaScript
 
+// Can use swt.objectName in the console to perform the functions objectName: start, stop and reset
+const swt = new stopWatch();
+
 function stopWatch() {
 
     let start, end, running, duration = 0;
@@ -43,6 +46,3 @@ function stopWatch() {
         get: function() { return duration; }
     });
 }
-
-// Can use swt in the console to perform the functions 
-const swt = new stopWatch();

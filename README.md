@@ -6,3 +6,6 @@ Mini Web Projects using JavaScript
 2. Progress Steps
 3. Rotating Navigation
 4. Hidden Widget Search
+
+# JS Projects
+1.  Simple stopwatch

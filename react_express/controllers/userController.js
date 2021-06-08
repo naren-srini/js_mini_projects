@@ -2,6 +2,6 @@
 
 exports.userController = (req, res) => {
     res.json({
-        userList: ["User A", "User B"]
+        usersList: ["User A", "User B", "User C"]
     })
 }
